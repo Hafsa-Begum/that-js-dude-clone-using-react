@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color:#fff;
+  height: 50px;
+  padding: 20px 80px;
+}
+.sign-in{
+  background-color: green;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.header-main{
+  padding: 20px 80px;
+  background-color: rgb(239, 239, 239); 
+  height: 400px;
+  text-align: start;
+ 
+}
+.header-main h1{
+  font-size: 74px;
+  font-weight: 400;
+}
+.details{
+  padding: 7px 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: rgb(103, 123, 238);
+  color: white;
+  font-weight: 700;
+}
+.main{
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.left{
+  width: 70%;
+}
+.js-config{
+  text-align: start;
+}
+.right{
+  width: 30%;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(239, 239, 239);
+  border: 3px solid rgba(160, 150, 150, 0.247); 
+  border-radius: 5px;
+}
+#tutorial-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 10px 20px;
+}
+.tutorial{
+  text-align: start;
+}
+#personal-training, #recent-videos, #recent-talks, #invite-to-talk{
+  margin: 10px 20px;
+  text-align: start;
+}
+#recent-videos ul, #recent-talks ul{
+  margin: 5px;
+}
